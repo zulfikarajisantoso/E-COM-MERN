@@ -1,0 +1,15 @@
+POST http://localhost:5000/auth/login
+Content-Type: application/json
+
+{
+    "username":"yadifsa",
+    "password": "safafaf"
+}
+
+###
+GET http://localhost:5000/products/
+
+
+###
+GET  http://localhost:5000/user/stats
+
